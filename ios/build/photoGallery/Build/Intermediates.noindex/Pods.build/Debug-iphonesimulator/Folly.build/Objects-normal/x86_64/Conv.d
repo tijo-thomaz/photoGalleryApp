@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Conv.cpp \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Target\ Support\ Files/Folly/Folly-prefix.pch \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Conv.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Headers/Public/DoubleConversion/double-conversion/double-conversion.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Headers/Public/DoubleConversion/double-conversion/utils.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Demangle.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/FBString.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Portability.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/CPortability.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Traits.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/hash/Hash.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Utility.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/functional/ApplyTuple.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/functional/Invoke.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Preprocessor.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/hash/SpookyHashV1.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/hash/SpookyHashV2.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/lang/Bits.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/ConstexprMath.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/lang/Assume.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/portability/Builtins.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/memory/Malloc.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/memory/detail/MallocImpl.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Expected.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Likely.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Optional.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Unit.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/lang/ColdClass.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/Range.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/portability/Constexpr.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/portability/String.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/CpuId.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/detail/RangeCommon.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Headers/Public/glog/glog/logging.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Headers/Public/glog/glog/log_severity.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Headers/Public/glog/glog/vlog_is_on.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/detail/RangeSse42.h \
+  /Users/tijo/Documents/test/photoGalleryApp/ios/Pods/Folly/folly/portability/Math.h
