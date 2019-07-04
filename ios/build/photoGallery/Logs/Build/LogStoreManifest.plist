@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>684F9A43-6191-4C86-BC0A-1ADF039F8062</key>
+		<key>01A7CD21-19AB-401C-8615-473B3F27B1D8</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>684F9A43-6191-4C86-BC0A-1ADF039F8062.xcactivitylog</string>
+			<string>01A7CD21-19AB-401C-8615-473B3F27B1D8.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Building workspace photoGallery with scheme photoGallery and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>583873193.15369594</real>
+			<real>583920491.99278402</real>
 			<key>timeStoppedRecording</key>
-			<real>583873381.29154503</real>
+			<real>583920493.86095703</real>
 			<key>title</key>
 			<string>Building workspace photoGallery with scheme photoGallery and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>684F9A43-6191-4C86-BC0A-1ADF039F8062</string>
+			<string>01A7CD21-19AB-401C-8615-473B3F27B1D8</string>
+		</dict>
+		<key>954254F8-EA24-4E12-B696-20573DBD7C6B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>954254F8-EA24-4E12-B696-20573DBD7C6B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>photoGallery project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>photoGallery</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace photoGallery with scheme photoGallery and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>583921525.98530602</real>
+			<key>timeStoppedRecording</key>
+			<real>583921527.64117396</real>
+			<key>title</key>
+			<string>Building workspace photoGallery with scheme photoGallery and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>954254F8-EA24-4E12-B696-20573DBD7C6B</string>
 		</dict>
 	</dict>
 </dict>

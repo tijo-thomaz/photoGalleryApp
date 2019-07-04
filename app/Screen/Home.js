@@ -26,7 +26,7 @@ class GalleryHome extends Component {
   }
   renderHeader() {
     return <View style={{ padding: 16, fontSize: 20, color: 'white', backgroundColor: 'purple' }}>
-      <Header title={'Image Gallery'} />
+       <Header title={'Image Gallery'} />
     </View>;
   }
   ShowModalFunction = (visible, imageURL) => {
@@ -38,22 +38,25 @@ class GalleryHome extends Component {
 
   renderItem = (item, itemSize, itemPaddingHorizontal) => {
     return (
-      <TouchableOpacity
-        key={item.id}
-        style={{
-          width: itemSize,
-          height: itemSize,
-          paddingHorizontal: itemPaddingHorizontal,
-        }}
-        onPress={() => {
-          this.ShowModalFunction(true, item.src);
-        }}>
-        <Image
-          resizeMode="cover"
-          style={{ flex: 1 }}
-          source={{ uri: item.src!==``?item.src:`https://randomuser.me/api/portraits/city/8.jpg` }}
-        />
-      </TouchableOpacity>
+      <View style={{ flex: 1, flexDirection: 'column', margin: 1 }}>
+        <TouchableOpacity
+          key={item.id}
+          style={{
+            width: itemSize,
+            height: itemSize,
+            paddingHorizontal: itemPaddingHorizontal,
+          }}
+          onPress={() => {
+            this.ShowModalFunction(true, item.src);
+          }}>
+          <Image style={Styles.imageThumbnail}  source={{ uri: item.src !== `` ? item.src : `https://randomuser.me/api/portraits/city/8.jpg` }} />
+          <Image
+            resizeMode="cover"
+            style={{ flex: 1 }}
+          />
+        </TouchableOpacity>
+      </View>
+
     );
   }
 
@@ -94,11 +97,11 @@ const mapStateToProps = state => {
     var joined = spltstr.join('/')
     return joined;
   }) : [];
- let items = Array.apply(null, Array(60)).map((v, i) => {
-  let newImg=i + 1 + '.jpg'
-  let url = storedRepositories[0]? storedRepositories[0]+'/'+newImg:``
-      return { id: i, src: url };
-    });
+  let items = Array.apply(null, Array(60)).map((v, i) => {
+    let newImg = i + 1 + '.jpg'
+    let url = storedRepositories[0] ? storedRepositories[0] + '/' + newImg : ``
+    return { id: i, src: url };
+  });
   return {
     repos: items
   };
