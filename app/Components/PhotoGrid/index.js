@@ -16,8 +16,7 @@ class PhotoGrid extends Component {
                 renderItem={({ item }) => (
                     this.renderRow(item)
                 )}
-
-                numColumns={3}
+                numColumns={this.props.itemsPerRow}
                 keyExtractor={(item, index) => index}
             />
         );

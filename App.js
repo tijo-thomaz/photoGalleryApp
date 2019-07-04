@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <Provider store={store}>
         <View style={styles.container}>
-      <Home/>
+          <Home />
         </View>
       </Provider>
     );
