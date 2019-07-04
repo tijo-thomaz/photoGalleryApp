@@ -4,7 +4,7 @@ const Header = ({
     title,
 }) => (
         <View style={[{ flexDirection: 'row' }]}>
-            <Text style={{ color: 'white' ,fontSize:20}}> Image Gallery</Text>
+            <Text style={{ color: 'white' ,fontSize:20}}> {title}</Text>
         </View>
 
     );

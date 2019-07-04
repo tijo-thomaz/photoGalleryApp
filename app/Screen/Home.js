@@ -26,7 +26,7 @@ class GalleryHome extends Component {
   }
   renderHeader() {
     return <View style={{ padding: 16, fontSize: 20, color: 'white', backgroundColor: 'purple' }}>
-       <Header title={'Image Gallery'} />
+     <Header title={'Image Gallery'} />
     </View>;
   }
   ShowModalFunction = (visible, imageURL) => {
@@ -49,11 +49,10 @@ class GalleryHome extends Component {
           onPress={() => {
             this.ShowModalFunction(true, item.src);
           }}>
-          <Image style={Styles.imageThumbnail}  source={{ uri: item.src !== `` ? item.src : `https://randomuser.me/api/portraits/city/8.jpg` }} />
-          <Image
+          <Image   
             resizeMode="cover"
             style={{ flex: 1 }}
-          />
+           source={{ uri: item.src !== `` ? item.src : `https://randomuser.me/api/portraits/city/8.jpg` }} />
         </TouchableOpacity>
       </View>
 
